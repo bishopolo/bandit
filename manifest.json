@@ -5,7 +5,7 @@
   "description": "get the flag to next level, this is bandit",
   "start_url": "./",
   "background_color": "#232425",
-  "theme_color": "#bada55",
+  "theme_color": "#232425",
   "orientation": "any",
   "display": "standalone",
   "icons": [
