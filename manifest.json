@@ -10,8 +10,15 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "./bandit.png",
+      "src": "./bandit144.png",
       "sizes": "144x144"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./bandit1280.png",
+      "sizes": "1280x720",
+      "type": "image/png"
     }
   ]
 }

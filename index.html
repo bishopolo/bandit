@@ -4107,7 +4107,7 @@ exit 0
 
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js", { scope: "./" });
+        navigator.serviceWorker.register("/sw.js", { scope: "/" });
       }
       document.addEventListener("DOMContentLoaded", (e) => {
         const summaries = document.querySelectorAll(".cmd");
