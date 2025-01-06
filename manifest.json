@@ -1,0 +1,17 @@
+{
+  "lang": "es-ES",
+  "name": "bandit game",
+  "short_name": "bandit ",
+  "description": "get the flag to next level, this is bandit",
+  "start_url": "/",
+  "background_color": "#232425",
+  "theme_color": "#bada55",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./bandit.png",
+      "sizes": "144x144"
+    }
+  ]
+}
