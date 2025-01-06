@@ -11,7 +11,7 @@
       href="https://overthewire.org/img/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
   </head>
   <body>
     <h1 class="text-center text-4xl my-5">Bandit</h1>
@@ -4107,7 +4107,7 @@ exit 0
 
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js", { scope: "/" });
+        navigator.serviceWorker.register("./sw.js", { scope: "./" });
       }
       document.addEventListener("DOMContentLoaded", (e) => {
         const summaries = document.querySelectorAll(".cmd");
